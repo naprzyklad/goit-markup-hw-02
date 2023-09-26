@@ -1,5 +1,6 @@
 :root {
-  --main-bg-color: #fff;
+  --color-body: #434455;
+  --main-bg-color: #ffffff;
   /* LOGO */
   --color-logo: #4d5ae5;
   --color-logo-studio: #2e2f42;
@@ -13,8 +14,15 @@
 /*BODY*/
 .portfolio-body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-body);
   background-color: var(--main-bg-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  font-style: normal;
+  list-style: none;
 }
 
 /*LOGO*/
@@ -30,25 +38,14 @@
 .portfolio-logo-studio {
   color: var(--color-logo-studio);
 }
-.logo-link {
-  text-decoration: none;
-}
 
 /*NAV-MENU*/
-.nav-list {
-  list-style: none;
-}
-
 .text-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-logo-studio);
-}
-
-.nav-link {
-  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -60,27 +57,21 @@
 }
 
 /*ADDRESS*/
-.address-list {
+.address {
   font-style: normal;
-  list-style: none;
 }
-
-.ad-style {
+.ad-menu {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-address-link);
 }
 
-.ad-link {
-  text-decoration: none;
-}
-
-.ad-link:hover {
+.ad-menu:hover {
   color: #404bbf;
 }
 
-.ad-link:focus {
+.ad-menu:focus {
   color: #404bbf;
 }
 
