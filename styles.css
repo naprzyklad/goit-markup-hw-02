@@ -5,9 +5,9 @@
   --color-logo: #4d5ae5;
   --color-logo-studio: #2e2f42;
   /*NAV MENU*/
-  --color-nav-studio: #2e2f42;
+  --color-nav-studio-default: #2e2f42;
   /*ADRESS*/
-  --color-address-link: #434455;
+  --color-address-link-default: #434455;
   /*BUTTONS*/
 }
 
@@ -45,7 +45,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-logo-studio);
+  color: var(--color-nav-studio-default);
 }
 
 .nav-link:hover {
@@ -64,7 +64,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-address-link);
+  color: var(--color-address-link-default);
 }
 
 .ad-menu:hover {
