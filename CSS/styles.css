@@ -1,16 +1,4 @@
-.button {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--CLOUD, #f4f4fd);
-  color: var(--IRIS, #4d5ae5);
-  text-align: center;
-
+.portfolio-btn {
   /* Button Text */
   font-family: Roboto;
   font-size: 16px;
@@ -18,17 +6,28 @@
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  color: #404bbf;
+  background-color: #f4f4fd;
+  background-color: transparent 50%;
+  border-color: #e7e9fc;
+  border-color: transparent 50%;
+}
+.portfolio-btn:hover {
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  color: #fff;
+  background-color: #404bbf;
+  background-color: transparent 50%;
+  border-color: #404bbf;
+  border-color: transparent 50%;
 }
 
-.button:hover {
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  align-items: flex-start;
-  background: #404bbf;
-  color: var(--WHITE, #fff);
-  text-align: center;
-
+.portfolio-btn:focus {
   /* Button Text */
   font-family: Roboto;
   font-size: 16px;
@@ -36,4 +35,9 @@
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  color: #fff;
+  background-color: #404bbf;
+  background-color: transparent 50%;
+  border-color: #404bbf;
+  border-color: transparent 50%;
 }
