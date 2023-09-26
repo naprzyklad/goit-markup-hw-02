@@ -1,10 +1,96 @@
+:root {
+  --main-bg-color: #fff;
+  /* LOGO */
+  --color-logo: #4d5ae5;
+  --color-logo-studio: #2e2f42;
+  /*NAV MENU*/
+  --color-nav-studio: #2e2f42;
+  /*ADRESS*/
+  --color-address-link: #434455;
+  /*BUTTONS*/
+}
+
+/*BODY*/
+.portfolio-body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--main-bg-color);
+}
+
+/*LOGO*/
+.portfolio-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo);
+}
+.portfolio-logo-studio {
+  color: var(--color-logo-studio);
+}
+.logo-link {
+  text-decoration: none;
+}
+
+/*NAV-MENU*/
+.nav-list {
+  list-style: none;
+}
+
+.text-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-logo-studio);
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+}
+
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/*ADDRESS*/
+.address-list {
+  font-style: normal;
+  list-style: none;
+}
+
+.ad-style {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address-link);
+}
+
+.ad-link {
+  text-decoration: none;
+}
+
+.ad-link:hover {
+  color: #404bbf;
+}
+
+.ad-link:focus {
+  color: #404bbf;
+}
+
+/*BUTTONS*/
 .portfolio-btn {
-  /* Button Text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.64px;
   color: #404bbf;
   background-color: #f4f4fd;
@@ -13,12 +99,11 @@
   border-color: transparent 50%;
 }
 .portfolio-btn:hover {
-  /* Button Text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.64px;
   color: #fff;
   background-color: #404bbf;
@@ -28,12 +113,11 @@
 }
 
 .portfolio-btn:focus {
-  /* Button Text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.64px;
   color: #fff;
   background-color: #404bbf;
