@@ -1,4 +1,10 @@
 :root {
+  /*Studio*/
+  --hero-bg-color: #2e2f42;
+  --goals-head-color: #2e2f42;
+  --goals-content-color: #434455;
+  --team-head-color: #2e2f42;
+  /*PORTFOLIO*/
   --color-body: #434455;
   --main-bg-color: #ffffff;
   /* LOGO */
@@ -10,8 +16,61 @@
   --color-address-link-default: #434455;
   /*BUTTONS*/
 }
+/*Studio*/
+.hero {
+  background-color: var(--hero-bg-color);
+}
+/*Hero section*/
+/*Main title*/
+.head-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+/*Order Service Button*/
+.order-button {
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.order-button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+/*Goals section*/
+/*Company goal list*/
+.goals {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--goals-head-color);
+}
 
-/*general BODY settings*/
+.goals-content {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--goals-content-color);
+}
+
+/*WHAT ARE WE DOING*/
+.wawd {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--team-head-color);
+}
+/*Portfolio*/
+/*general body settings*/
 .body {
   font-family: "Roboto", sans-serif;
   color: var(--color-body);
@@ -77,7 +136,7 @@
 
 /*BUTTONS*/
 .portfolio-btn {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -90,7 +149,7 @@
   border-color: transparent 50%;
 }
 .portfolio-btn:hover {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -104,7 +163,7 @@
 }
 
 .portfolio-btn:focus {
-  font-family: Roboto;
+  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
