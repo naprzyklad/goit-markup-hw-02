@@ -114,6 +114,8 @@
 }
 .footer-content {
   color: var(--footer-logo-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*Portfolio*/
