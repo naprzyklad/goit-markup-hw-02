@@ -3,7 +3,10 @@
   --hero-bg-color: #2e2f42;
   --goals-head-color: #2e2f42;
   --goals-content-color: #434455;
+  --wawd-head-color: #2e2f42;
   --team-head-color: #2e2f42;
+  --name-color: #2e2f42;
+  --job-color: #434455;
   /*PORTFOLIO*/
   --color-body: #434455;
   --main-bg-color: #ffffff;
@@ -67,8 +70,36 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--wawd-head-color);
+}
+
+/*Team*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-head {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--team-head-color);
 }
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--name-color);
+}
+.job {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--job-color);
+}
+
 /*Portfolio*/
 /*general body settings*/
 .body {
