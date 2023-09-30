@@ -9,7 +9,7 @@
   --job-color: #434455;
   /*PORTFOLIO*/
   --color-body: #434455;
-  --main-bg-color: #ffffff;
+  --bg-color: #ffffff;
   /* LOGO */
   --color-logo: #4d5ae5;
   --color-logo-studio: #2e2f42;
@@ -46,6 +46,12 @@
   background-color: #404bbf;
   cursor: pointer;
 }
+
+.order-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
 /*Goals section*/
 /*Company goal list*/
 .goals {
@@ -74,6 +80,9 @@
 }
 
 /*Team*/
+.list-team {
+  background-color: #ffffff;
+}
 .team {
   background-color: #f4f4fd;
 }
@@ -104,7 +113,7 @@
 .body {
   font-family: "Roboto", sans-serif;
   color: var(--color-body);
-  background-color: var(--main-bg-color);
+  background-color: var(--bg-color);
 }
 .link {
   text-decoration: none;
