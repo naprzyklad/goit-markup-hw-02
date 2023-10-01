@@ -1,12 +1,8 @@
 :root {
   /*Studio*/
   --hero-bg-color: #2e2f42;
-  --goals-head-color: #2e2f42;
-  --goals-content-color: #434455;
-  --wawd-head-color: #2e2f42;
-  --team-head-color: #2e2f42;
-  --name-color: #2e2f42;
-  --job-color: #434455;
+  --head-color: #2e2f42;
+  --content-color: #434455;
   /*PORTFOLIO*/
   --color-body: #434455;
   --bg-color: #ffffff;
@@ -15,7 +11,7 @@
   --color-logo-studio: #2e2f42;
   --footer-logo-color: #f4f4fd;
   /*NAV MENU*/
-  --color-nav-studio-default: #2e2f42;
+  --color-nav-default: #2e2f42;
   /*ADRESS*/
   --color-address-link-default: #434455;
   /*BUTTONS*/
@@ -60,14 +56,14 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--goals-head-color);
+  color: var(--head-color);
 }
 
 .goals-content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--goals-content-color);
+  color: var(--content-color);
 }
 
 /*WHAT ARE WE DOING*/
@@ -77,7 +73,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--wawd-head-color);
+  color: var(--head-color);
 }
 
 /*Team*/
@@ -93,20 +89,21 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--team-head-color);
+  color: var(--head-color);
 }
 .name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--name-color);
+  color: var(--head-color);
 }
+/*Used for portfolio in picture paragraph*/
 .job {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--job-color);
+  color: var(--content-color);
 }
 
 .footer {
@@ -160,7 +157,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-nav-studio-default);
+  color: var(--color-nav-default);
 }
 
 .nav-link:hover {
@@ -190,6 +187,14 @@
   color: #404bbf;
 }
 
+.project {
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--head-color);
+}
+
 /*BUTTONS*/
 .portfolio-btn {
   font-family: inherit;
@@ -203,6 +208,7 @@
   background-color: transparent 50%;
   border-color: #e7e9fc;
   border-color: transparent 50%;
+  cursor: pointer;
 }
 .portfolio-btn:hover {
   font-family: inherit;
@@ -216,6 +222,7 @@
   background-color: transparent 50%;
   border-color: #404bbf;
   border-color: transparent 50%;
+  cursor: pointer;
 }
 
 .portfolio-btn:focus {
@@ -230,4 +237,5 @@
   background-color: transparent 50%;
   border-color: #404bbf;
   border-color: transparent 50%;
+  cursor: pointer;
 }
