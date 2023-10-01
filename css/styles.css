@@ -15,6 +15,7 @@
   /*ADRESS*/
   --color-address-link-default: #434455;
   /*BUTTONS*/
+  --button-color: #4d5ae5;
 }
 /*Studio*/
 .hero {
@@ -203,7 +204,7 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-  color: #404bbf;
+  color: var(--button-color);
   background-color: #f4f4fd;
   background-color: transparent 50%;
   border-color: #e7e9fc;
